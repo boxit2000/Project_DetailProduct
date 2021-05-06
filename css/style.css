@@ -1,0 +1,672 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css cho trang chủ */
+
+.homepage {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* css cho header */
+
+.homepage--header {
+    margin: auto;
+    height: 90px;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* css cho từng thành phần trong header */
+
+
+/* Left + Right Bar */
+
+.homepage--header__leftNavBar,
+.homepage--header__rightNavBar {
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* Taskbar */
+
+.homepage--header__navBar {
+    list-style-type: none;
+    margin: auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+[class*="homepage--header__"]{
+    cursor: pointer;
+}
+/* .homepage--header__navBar>li{
+    cursor: pointer;
+} */
+
+/* Logo */
+
+.homepage--header__logo {
+    font-size: xx-large;
+    line-height: 100%;
+    font-weight: 600;
+}
+
+
+/* Main */
+
+.homepage--main {
+    margin: auto;
+    height: 2000px;
+    width: 90%;
+    /* background-color: #f2f2f2; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.homepage--main__css {
+    width: 100%;
+    display: flex;
+}
+
+
+/* Banner chính */
+
+.homepage--main__banner {
+    height: 500px;
+    width: 98%;
+    background-color: #f2f2f2;
+    background-image: url(../img/main_banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Banner thứ 2 và 2 box con*/
+
+.homepage--main__secondBanner {
+    height: 400px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main--secondBanner__leftBox {
+    width: 49%;
+    background-color: #f2f2f2;
+    background-image: url(../img/second-banner-left.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main--secondBanner__rightBox {
+    width: 49%;
+    background-color: #f2f2f2;
+    background-image: url(../img/second-banner-right2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Banner thứ 3 */
+
+.homepage--main__thirdBanner {
+    height: 340px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* 3 Box con của banner thứ 3 */
+
+.main--thirdBanner__left {
+    width: 49%;
+    background-color: #f2f2f2
+}
+
+.main--thirdBanner__between,
+.main--thirdBanner__right {
+    width: 23.5%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thirdBanner--between__box {
+    height: 80%;
+    background-color: #f2f2f2;
+    background-image: url(../img/box.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.thirdBanner--right__box {
+    height: 80%;
+    background-color: #f2f2f2;
+    background-image: url(../img/box2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text {
+    margin-bottom: 5px;
+}
+
+
+/* Banner thứ 4 */
+
+.homepage--main__fourthBigBanner {
+    height: 490px;
+    background-color: #edead3
+}
+
+
+
+
+
+
+
+
+
+.alltop{
+    margin: 0px 100px;
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    
+}
+.left{
+    /* background-color: rgb(209, 248, 170); */
+    display: flex;    
+    width: 60%;
+}
+
+img{
+    max-width: 100%;
+}
+figure{
+    max-width: 800px;
+    margin-left: 20px;
+    /* border: 1px solid black; */
+}
+figure img{
+    display: block;
+    max-width: 100%;
+    min-width: 100%;
+}
+.thumb_list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.thumb_list ul li{
+    /* display: inline-block; */
+    border: 1px solid rgb(230, 180, 180);
+    width: 100px;
+    margin: 5px 5px;
+}
+
+.thumb_list ul li img{
+    display: block;
+    cursor: pointer;
+    opacity: 0.7;
+}
+/* .thumb_list ul li img:hover{
+    opacity: 1;
+    border: 1px solid black;
+} */
+
+/* Phan ben phai */
+.right{
+    /* border: 1px solid green; */
+    /* background-color: rgb(247, 194, 156);     */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 200px;
+}
+.right ul{
+    list-style-type: none ;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-; */
+}
+.right ul li {
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(190, 155, 155);
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+h3{
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.allPrice{
+    color: rgb(27, 26, 26);
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+.discount{
+    border: 1px solid red;
+    margin-left: 20px;
+    color: gray;
+    font-size: 20px;
+    padding: 3px 17px;
+    border-radius: 15px;
+}
+.price{    
+    color: gray;
+}
+.star{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.decreption{
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.buy{
+    /* border: 1px solid black; */
+    display: flex;
+}
+.box{
+    margin-left: 30px;
+    border: 1px solid black;
+    /* padding: 15px 50px;   */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.box button{
+    border: none;
+    padding: 0px 15px; 
+    font-size: 30px;   
+    opacity: 0.8;
+    cursor: pointer;
+}
+.box .total{
+    border: none;
+    max-width: 45px;
+    text-align: center;
+    height: 100%;
+    line-height: 43px;
+    font-size: 25px;
+    background-color: rgb(239, 239, 239) ;
+}
+.total:focus{
+    outline: none;
+}
+
+.addToCart{
+    color: whitesmoke;
+    background-color: black;
+    margin-left: 20px;
+    padding: 15px 120px;   
+    border: none; 
+    cursor: pointer;
+}
+.addToWishList{
+    border: none; 
+    margin-left: 184px;
+    padding: 14px 102px;
+    background-color: rgb(214, 213, 213);
+    cursor: pointer;
+}
+hr{
+    color: rgb(235, 223, 223);
+    opacity: 0.7;
+    margin: 0px 10px;
+}
+/* css .hastag */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.hastag{
+    display: flex;
+    flex-direction: column;
+}
+.hastag div{
+    display: inline-flex;
+    
+}
+.hastag p{
+    color: gray;
+}
+.hastag .titleSku{
+    color: black;
+}
+.sku{
+    margin-left: 10px;
+}
+.titleSku{
+    margin-left: 10px;
+}
+.cate{
+    margin-left: 20px;
+}
+.dauphay{
+    margin-right: 10px;
+}
+.tag{
+    margin-left: 10px;
+}
+
+/* css bottomRight */
+.share{
+    display: flex;
+}
+.tilteShare{
+    font-size: 18px;
+    margin-left: 10px;
+    color: gray;
+}
+.share i{
+    margin-left: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* CSS Phần mô tả */
+
+.allbot{
+    margin: 0px 100px;
+    display: flex;
+    /* background-color: rgba(240, 248, 193, 0.705); */
+    flex-direction: column;
+    justify-content: space-between;
+}
+.des{
+    margin: 20px 0px;
+    font-size: 35px;
+    width: 100%;
+    /* background-color: gray; */
+}
+.titleDes{
+    background-color: white;
+    /* background-color: indianred; */
+    width: 70%;
+    height: 400px;    
+    margin-left: 15%; 
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.listDes{
+    margin-left: 10%;
+    color: rgb(136, 120, 120);
+
+}
+.titleDes1{
+    color: rgb(136, 120, 120);
+}
+.titleDes2{
+    color: rgb(136, 120, 120);
+}
+.additional{
+    
+    margin: 20px 0px;
+    font-size: 35px;
+    width: 100%;
+    /* background-color: gray; */
+}
+.titleAdditi{
+    margin-left: 15%;
+    display: flex;
+    font-size: 20px;
+}
+.rightAdditi{
+    color: rgb(136, 120, 120);
+    margin-left: 10%;
+}
+.related{
+    margin: 20px 0px;
+    font-size: 35px;
+    width: 100%;
+    /* background-color: gray; */
+}
+/* Css 4 ảnh nhỏ ở dưới  */
+.imgBot{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    
+}
+
+.listImg{
+    /* border: 1px solid rgb(207, 207, 207); */
+    position: relative;
+    /* background-color: rgb(248, 202, 150); */
+    cursor: pointer;
+}
+
+.listImg div img{
+    width: 95%;
+    display: block;
+    margin: auto;
+    
+}
+/*CSS Icon*/
+.iconImgBott{
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 110px;
+    bottom: 7px;
+}
+.boxIcon{
+    border: 1px solid rgb(114, 113, 113);
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:center ;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 10;
+    box-shadow: 0 0 3px  rgb(133, 103, 103);
+    border-radius: 7px;
+    overflow: hidden;
+}
+.listImg:hover .boxIcon{
+    opacity: 1;   
+    transition: 0.5s;
+    transform: scale(1.05);  
+}
+
+.icon > i{
+    margin: auto;
+    font-size: 30px;
+    /* border: 1px solid black; */
+    padding: 3px;
+    color: rgb(168, 168, 168);
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+/* CSS Name And Price */
+
+.listNameandPrice{
+    
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0px 100px; */
+}
+.listNameandPrice > div{
+    width: 25%;
+    margin: 10px 0px 30px 10px;
+  
+}
+.priceProduct{
+    color: cadetblue;
+}
+
+
+
+
+/* Footer */
+
+
+/* Set thuộc tính chung */
+
+.homepage--footer {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    background-color: #3a3a3a;
+}
+
+
+/* css cho phần điều hướng của footer*/
+
+.homepage--footer__navigator {
+    color: white;
+    height: 78%;
+    background-color: #3a3a3a;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* css cho các danh mục trong phần điều hướng */
+
+.homepage--footer__menu {
+    background-color: #3a3a3a;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    align-items: center;
+}
+
+
+/* css các thuộc tính như chữ, màu chữ trong phần điều hướng */
+
+.footer__menu {
+    width: 150px;
+    background-color: inherit;
+    color: white;
+    font-size: small;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.2s;
+    height: 15px;
+    /* padding-bottom: 5px; */
+}
+
+.footer__menu.css:hover {
+    color: #a09d9d;
+}
+
+
+/* css cho Tiêu đề của danh mục trong phần điều hướng */
+
+.footer__menu.title {
+    color: rgb(196, 189, 189);
+    margin-top: 55px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    cursor: unset;
+}
+
+
+/* css riêng cho menu bên phải của phần điều hướng */
+
+.homepage--footer__menu.menuRight {
+    flex-basis: 30%;
+    color: rgb(196, 189, 189);
+    /* justify-content: space-between; */
+    align-items: flex-start;
+}
+
+.footer__menu.content {
+    width: 90%;
+    margin-bottom: 40px;
+    color: rgb(196, 189, 189);
+    cursor: unset;
+}
+
+
+/* css cho box con trong right menu của footer */
+
+.footer__menu.form {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.footer--menu--inputText {
+    width: 220px;
+    height: 40px;
+    outline-style: none;
+    border: 1px solid white;
+}
+
+.footer--menu--signUpButton {
+    height: 40px;
+    width: 75px;
+    outline-style: none;
+    border: 1px solid white;
+    background-color: inherit;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.footer--menu--signUpButton:hover {
+    color: #a09d9d;
+}
+
+
+/* css cho vạch footer social */
+
+.homepage--footer__social {
+    background-color: inherit;
+    height: 20%;
+    border-top: 1px solid #a09d9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa.fa {
+    font-size: 30px;
+    width: fit-content;
+    background-color: inherit;
+    color: seashell;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.fa.fa:hover {
+    transform: scale(1.1);
+}

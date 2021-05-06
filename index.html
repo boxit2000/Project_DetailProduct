@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/39893cbee0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="homepage">
+
+        <div class="homepage--header">
+            <div class="homepage--header__leftNavBar">
+                <div class="header--leftNavBar__navIcon">NavIcon</div>
+                <div class="header--leftNavBar__search">Search</div>
+            </div>
+            <div class="homepage--header__navBar">
+                <ul class="homepage--header__navBar taskBar">
+                    <li>Home
+                        <a href="#"></a>
+                    </li>
+                    <li>Shop
+                        <a href="#"></a>
+                    </li>
+                    <li>Product
+                        <a href="#"></a>
+                    </li>
+                    <li class="homepage--header__logo">LOGO
+                        <a href="#"></a>
+                    </li>
+                    <li>About us
+                        <a href="#"></a>
+                    </li>
+                    <li>Contact
+                        <a href="#"></a>
+                    </li>
+                    <li> Blog
+                        <a href="#"></a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="homepage--header__rightNavBar">
+                <div class="header--rightNavBar__login">Login</div>
+                <div class="header--rightNavBar__cart">Cart</div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="alltop">
+        <div class="left">
+            <div class="thumb_list">
+                <ul>
+                    <div id="anh1">
+                        <li><img src="Img_Chi_Tiết_SP/afteroom-coat-hanger.webp" alt="" id="thumb1" onclick="click1()">
+                        </li>
+                    </div>
+                    <div id="anh2">
+                        <li><img src="Img_Chi_Tiết_SP/2.webp" alt="" id="thumb2" onclick="click2()"></li>
+                    </div>
+                    <div id="anh3">
+                        <li><img src="Img_Chi_Tiết_SP/3.webp" alt="" id="thumb3" onclick="click3()"></li>
+                    </div>
+                    <div id="anh4">
+                        <li><img src="Img_Chi_Tiết_SP/4.webp" alt="" id="thumb4" onclick="click4()"></li>
+                    </div>
+
+                </ul>
+            </div>
+            <figure>
+                <img src="Img_Chi_Tiết_SP/afteroom-coat-hanger.webp" alt="" id="firstImg">
+
+            </figure>
+        </div>
+        <div class="right">
+            <ul>
+                <li>Home</li>
+                <li>/</li>
+                <li> Accessories</li>
+                <li>/</li>
+                <li>Afteroom Coat Hanger</li>
+            </ul>
+            <h3>Afteroom Coat Hanger</h3>
+            <div class="allPrice">
+                <p class="money">$59.00</p>&nbsp;
+                <p class="priceSale"></p>&nbsp;
+                <p class="price"><strike>$76.00</strike></p>
+                <p class="discount">20% Off</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="decreption">
+                <p></p>A hanger that could correspond to the landmark’s style and improve its
+                inhabitants daily comfort.</p>
+            </div>
+            <div class="buy">
+                <div class="box">
+                    <button class="sub" onclick="tru()">
+                        -
+                    </button>
+                    <input type="text" class="total" id="sum" value="1">
+                    <!-- <p class="total" id="sum">
+                        1
+                    </p> -->
+                    <button class="add" onclick="cong()">
+                        +
+                    </button>
+                </div>
+                <div class="btnAddtocart">
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="btnAddtowishlist" id="btnWishlist">
+                <button class="addToWishList" onclick="clickWishlist()"><i class="far fa-heart"></i> Add to
+                    Wishlist</button>
+            </div>
+            <hr>
+            <div class="hastag">
+                <div class="topHastag">
+                    <div>
+                        <p class="sku">SKU:</p>
+                        <p class="titleSku">LGHT183</p>
+                    </div>
+                    <div>
+                        <p class="cate">Categories: &nbsp;</p>
+                        <a href="https://goya.everthemes.com/demo-decor/product-category/accessories/">Accessories</a>
+                        <p class="dauphay">,</p>
+                        <a href="https://goya.everthemes.com/demo-decor/product-category/decoration/">Decoration</a>
+                    </div>
+                </div>
+                <br>
+                <div class="botHastag">
+                    <p class="tag">Tag: &nbsp;</p>
+                    <a href="https://goya.everthemes.com/demo-decor/product-category/decoration/">decoration</a>
+                </div>
+            </div>
+            <hr>
+            <div class="bottomRight">
+                <div class="share">
+                    <p class="tilteShare">
+                        Share
+                    </p>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="allbot">
+        <div>
+            <p class="des">Description</p>
+        </div>
+        <div class="titleDes">
+            <p class="titleDes1">“A lamp with personality” is how Perimeter Table Lamp has been described. I find that
+                floor lamps are often big and dominant. An antidote to overbearing lamps, he conceived his new lamp to
+                literally “peek” over a sofa or armchair. The proportions have shrunk for the Table Lamp, with a dip in
+                the top of the base for needful things – earplugs or jewelly.
+            </p>
+            <p class="titleDes2">
+                Designed for apartment no. 50 at Le Corbusier’s ‘Cité Radieuse’ in Marseille, the Lamp’s aesthetic was
+                centred on the idea to become a versatile everyday companion; one that could correspond to the
+                landmark’s style and improve its inhabitants daily comfort.
+            </p>
+            <p class="product">
+                Product Details
+            </p>
+            <ul class="listDes">
+                <li>
+                    Powder-coated/Plated Zinc Alloy
+                </li>
+                <li>
+                    Electrical: 100-130V, Max 40W, IP20
+                </li>
+                <li>
+                    Bulb Socket: G9
+                </li>
+                <li>
+                    Bulb (included): LED, 4.5W, 100-130V, 450lm, 2700K, CRI 80, rated for 15,000 hours
+                </li>
+                <li>
+                    Cord: 6.5 feet, white, fabric
+                </li>
+                <li>
+                    US plug
+                </li>
+                <li>
+                    Metal knob functions as switch and dimmer
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p class="additional">Additional information</p>
+        </div>
+        <div class="titleAdditi">
+            <div class="leftAdditi">
+                <div class="weightDes">
+                    <p>
+                        WEIGHT
+                    </p>
+                </div>
+                <div class="dimenDes">
+                    <p>
+                        DIMENSIONS
+                    </p>
+                </div>
+                <div class="colorDes">
+                    <p>
+                        COLOR
+                    </p>
+                </div>
+            </div>
+
+            <div class="rightAdditi">
+                <div>
+                    <p class="kgDes">
+                        1.25 kg
+                    </p>
+                </div>
+                <div>
+                    <p class="sizeDes">
+                        32 × 24 × 10 cm
+                    </p>
+                </div>
+                <div>
+                    <p class="titleColor">
+                        Black, Gold
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="related">
+                Related products
+            </p>
+            <div class="imgBot">
+                <div class="listImg">
+                    <div class="imgProduct">
+                        <img src="./Img_Chi_Tiết_SP/b1.jpg" alt="">
+                    </div>
+                    <div class="iconImgBott">
+                        <div class="boxIcon">
+                            <div class="icon" id="icon1">
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="listImg">
+                    <div class="imgProduct">
+                        <img src="./Img_Chi_Tiết_SP/b2.jpg" alt="">
+                    </div>
+                    <div class="iconImgBott">
+                        <div class="boxIcon">
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="listImg">
+                    <div class="imgProduct">
+                        <img src="./Img_Chi_Tiết_SP/b3.jpg" alt="">
+                    </div>
+                    <div class="iconImgBott">
+                        <div class="boxIcon">
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="listImg">
+                    <div class="imgProduct">
+                        <img src="./Img_Chi_Tiết_SP/b4.jpg" alt="">
+                    </div>
+                    <div class="iconImgBott">
+                        <div class="boxIcon">
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="listNameandPrice">
+                <div>
+                    <p class="nameProduct">
+                        Bollard Lamp
+                    </p>
+                    <p class="priceProduct">
+                        $143.00
+                    </p>
+                </div>
+                <div>
+                    <p class="nameProduct">
+                        Norm Wall Clock
+                    </p>
+                    <p class="priceProduct">
+                        $93.00
+                    </p>
+                </div>
+                <div>
+                    <p class="nameProduct">
+                        Bobber Table Lamp
+                    </p>
+                    <p class="priceProduct">
+                        $284.00-$384.00
+                    </p>
+                </div>
+                <div>
+                    <p class="nameProduct">
+                        Norm Stone Lamp
+                    </p>
+                    <p class="priceProduct">
+                        $221.00
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="homepage--footer">
+
+        <div class="homepage--footer__navigator">
+            <div class="homepage--footer__menu menuLeft">
+                <div class="footer__menu title">COMPANY</div>
+                <div class="footer__menu css">Contact</div>
+                <div class="footer__menu css">Store Locator</div>
+                <div class="footer__menu css">About us</div>
+            </div>
+
+            <div class="homepage--footer__menu menuBetween">
+                <div class="footer__menu title">HELP</div>
+                <div class="footer__menu css">Order Tracking</div>
+                <div class="footer__menu css">FAQ’s</div>
+                <div class="footer__menu css">Terms & Conditions</div>
+            </div>
+
+            <div class="homepage--footer__menu menuBetween">
+                <div class="footer__menu title">STORE</div>
+                <div class="footer__menu css">Furniture</div>
+                <div class="footer__menu css">Decoration</div>
+                <div class="footer__menu css">Lighting</div>
+            </div>
+
+            <div class="homepage--footer__menu menuRight">
+                <div class="footer__menu title">SIGN UP FOR FREE</div>
+                <div class="footer__menu content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quia beatae.</div>
+
+                <div class="footer__menu form">
+                    <input class="footer--menu--inputText" type="text" placeholder="Your email adress">
+                    <input class="footer--menu--signUpButton" type="button" value="SIGN UP"></input>
+                </div>
+            </div>
+        </div>
+        <div class="homepage--footer__social">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+
+    </div>
+
+</body>
+<script src="./js/index.js"></script>
+
+</html>
