@@ -20,52 +20,42 @@
 </head>
 
 <body>
-    <div class="homepage">
 
-        <div class="homepage--header">
-            <div class="homepage--header__leftNavBar">
-                <div class="header--leftNavBar__navIcon">NavIcon</div>
-                <div class="header--leftNavBar__search">Search</div>
-            </div>
-            <div class="homepage--header__navBar">
-                <ul class="homepage--header__navBar taskBar">
-                    <li>Home
-                        <a href="#"></a>
-                    </li>
-                    <li>Shop
-                        <a href="#"></a>
-                    </li>
-                    <li>Product
-                        <a href="#"></a>
-                    </li>
-                    <li class="homepage--header__logo">LOGO
-                        <a href="#"></a>
-                    </li>
-                    <li>About us
-                        <a href="#"></a>
-                    </li>
-                    <li>Contact
-                        <a href="#"></a>
-                    </li>
-                    <li> Blog
-                        <a href="#"></a>
-                    </li>
-
-                </ul>
-            </div>
-            <div class="homepage--header__rightNavBar">
-                <div class="header--rightNavBar__login">Login</div>
-                <div class="header--rightNavBar__cart">Cart</div>
-            </div>
+    <div id="homepage--header">
+        <div class="homepage--header__leftNavBar">
+            <a href="http://127.0.0.1:5500/C4E_project/index.html" class="homepage--header__logo">WOODEN</a>
         </div>
 
+        <ul class="homepage--header__navBar">
+            <li class="header--buttonCSS underline" onclick="underlineTitle(0)">
+                <a href="http://127.0.0.1:5500/C4E_project/index.html">Home</a>
+            </li>
+            <li class="header--buttonCSS underline" onclick="underlineTitle(1)">
+                <a href="#">Shop</a>
 
+            </li>
+            <li class="header--buttonCSS underline" onclick="underlineTitle(2)">
+                <a href="#">Product</a>
+
+            </li>
+            <li class="header--buttonCSS underline" onclick="underlineTitle(3)">
+                <a href="#">About us</a>
+
+            </li>
+            <li class="header--buttonCSS underline" onclick="underlineTitle(4)">
+                <a href="#">Contact</a>
+            </li>
+
+        </ul>
+
+        <div class="homepage--header__rightNavBar">
+            <div onclick="showHomepageModal()" class="header--rightNavBar__login header--buttonCSS">Login</div>
+
+            <i class="header--rightNavBar__cart fa fa-search"></i>
+            <i class="header--rightNavBar__cart fa fa-shopping-cart"></i>
+            <div class="rightNavBar__cartCount">1</div>
+        </div>
     </div>
-
-
-
-
-
 
 
     <div class="alltop">
@@ -178,13 +168,17 @@
             <p class="des">Description</p>
         </div>
         <div class="titleDes">
-            <p class="titleDes1">“A lamp with personality” is how Perimeter Table Lamp has been described. I find that
-                floor lamps are often big and dominant. An antidote to overbearing lamps, he conceived his new lamp to
-                literally “peek” over a sofa or armchair. The proportions have shrunk for the Table Lamp, with a dip in
+            <p class="titleDes1">“A lamp with personality” is how Perimeter Table Lamp has been described. I find
+                that
+                floor lamps are often big and dominant. An antidote to overbearing lamps, he conceived his new lamp
+                to
+                literally “peek” over a sofa or armchair. The proportions have shrunk for the Table Lamp, with a dip
+                in
                 the top of the base for needful things – earplugs or jewelly.
             </p>
             <p class="titleDes2">
-                Designed for apartment no. 50 at Le Corbusier’s ‘Cité Radieuse’ in Marseille, the Lamp’s aesthetic was
+                Designed for apartment no. 50 at Le Corbusier’s ‘Cité Radieuse’ in Marseille, the Lamp’s aesthetic
+                was
                 centred on the idea to become a versatile everyday companion; one that could correspond to the
                 landmark’s style and improve its inhabitants daily comfort.
             </p>
@@ -373,28 +367,29 @@
             </div>
         </div>
     </div>
+    
     <div class="homepage--footer">
 
         <div class="homepage--footer__navigator">
             <div class="homepage--footer__menu menuLeft">
-                <div class="footer__menu title">COMPANY</div>
-                <div class="footer__menu css">Contact</div>
-                <div class="footer__menu css">Store Locator</div>
-                <div class="footer__menu css">About us</div>
+                <div class="footer__menu title underline">COMPANY</div>
+                <div class="footer__menu css underline">Contact</div>
+                <div class="footer__menu css underline">Store Locator</div>
+                <div class="footer__menu css underline">About us</div>
             </div>
 
             <div class="homepage--footer__menu menuBetween">
-                <div class="footer__menu title">HELP</div>
-                <div class="footer__menu css">Order Tracking</div>
-                <div class="footer__menu css">FAQ’s</div>
-                <div class="footer__menu css">Terms & Conditions</div>
+                <div class="footer__menu title underline">HELP</div>
+                <div class="footer__menu css underline">Order Tracking</div>
+                <div class="footer__menu css underline">FAQ’s</div>
+                <div class="footer__menu css underline">Terms & Conditions</div>
             </div>
 
             <div class="homepage--footer__menu menuBetween">
-                <div class="footer__menu title">STORE</div>
-                <div class="footer__menu css">Furniture</div>
-                <div class="footer__menu css">Decoration</div>
-                <div class="footer__menu css">Lighting</div>
+                <div class="footer__menu title underline">STORE</div>
+                <div class="footer__menu css underline">Furniture</div>
+                <div class="footer__menu css underline">Decoration</div>
+                <div class="footer__menu css underline">Lighting</div>
             </div>
 
             <div class="homepage--footer__menu menuRight">
@@ -402,19 +397,22 @@
                 <div class="footer__menu content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
                     quia beatae.</div>
 
-                <div class="footer__menu form">
+                <div class="footer__menu form ">
                     <input class="footer--menu--inputText" type="text" placeholder="Your email adress">
                     <input class="footer--menu--signUpButton" type="button" value="SIGN UP"></input>
                 </div>
             </div>
         </div>
-        <div class="homepage--footer__social">
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-instagram"></i>
+        <div class="homepage--footer__social ">
+            <i class="footer fa fa-twitter "></i>
+            <i class="footer fa fa-facebook "></i>
+            <i class="footer fa fa-instagram "></i>
         </div>
-
+        <div onclick="autoSrollUp()" class="homepage--upButton">
+            <i class="fa fa-long-arrow-up"></i>
+        </div>
     </div>
+
 
 </body>
 <script src="./js/index.js"></script>
