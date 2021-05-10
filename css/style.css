@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    min-width: 1579.17px;
+}
 
 /* css cho trang chủ */
 
@@ -218,7 +221,7 @@ figure img{
 }
 .thumb_list ul li{
     /* display: inline-block; */
-    border: 1px solid rgb(230, 180, 180);
+    /* border: 1px solid rgb(230, 180, 180); */
     width: 100px;
     margin: 5px 5px;
 }
@@ -227,6 +230,7 @@ figure img{
     display: block;
     cursor: pointer;
     opacity: 0.7;
+    /* border: none; */
 }
 .thumb_list ul li img:hover{
     opacity: 1;
@@ -548,7 +552,7 @@ a{
 .imgProduct #img1{
     position: absolute;
     top: 0;
-    right: 0;
+    right: 8px;
 }
 .imgProduct:hover #img1{
     opacity: 0;
@@ -558,7 +562,7 @@ a{
 .imgProduct #img2{
     position: absolute;
     top: 0;
-    right: 0;
+    right: 8px;
 }
 .imgProduct:hover #img2{
     opacity: 0;
@@ -582,7 +586,7 @@ a{
 .imgProduct #img4{
     position: absolute;
     top: 0;
-    right: 0;
+    right: 8px;
     width: 95%;
 }
 .imgProduct:hover #img4{
