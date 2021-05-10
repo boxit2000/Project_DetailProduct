@@ -221,7 +221,7 @@ figure img{
 }
 .thumb_list ul li{
     /* display: inline-block; */
-    /* border: 1px solid rgb(230, 180, 180); */
+    border: 1px solid rgb(255, 216, 216);
     width: 100px;
     margin: 5px 5px;
 }
